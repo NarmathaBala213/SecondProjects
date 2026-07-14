@@ -10,4 +10,4 @@ Feature: SauceDemo Purchase Flow
     And user clicks checkout
     And user fills checkout details
     And user completes the purchase
-    Then user logs outttt
+    Then user logs out
