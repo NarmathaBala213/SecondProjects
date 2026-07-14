@@ -9,5 +9,7 @@ export class MenuPage {
     await this.page.click(this.menuBtn);
     await this.page.waitForTimeout(1000);
     await this.page.click(this.logoutLink);
+    await this.page.waitForTimeout(1000);
   }
+  
 }
